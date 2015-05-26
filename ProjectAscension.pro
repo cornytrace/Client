@@ -23,7 +23,8 @@ HEADERS += \
     Source/Library.h \
     Source/Browser.h \
     Source/MainPanel.h \
-    Source/Database.h
+    Source/Database.h \
+    Source/AddGame.h
 
 SOURCES += \
     Source/Main.cpp \
@@ -31,7 +32,8 @@ SOURCES += \
     Source/Library.cpp \
     Source/Browser.cpp \
     Source/MainPanel.cpp \
-    Source/Database.cpp
+    Source/Database.cpp \
+    Source/AddGame.cpp
 
 win32 {
     HEADERS += \
@@ -83,7 +85,8 @@ OTHER_FILES +=
 
 FORMS += \
     Resource/UI/Library.ui \
-    Resource/UI/Browser.ui
+    Resource/UI/Browser.ui \
+    Resource/UI/AddGame.ui
 
 DISTFILES += \
     Resource/PAClient.css \
